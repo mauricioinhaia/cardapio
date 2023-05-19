@@ -2,10 +2,7 @@ package com.restaurante.cardapio.entities;
 
 import com.restaurante.cardapio.dto.FoodRequestDTO;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Entity(name = "foods")
 @Table(name = "foods")
