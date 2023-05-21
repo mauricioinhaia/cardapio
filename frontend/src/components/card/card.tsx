@@ -13,7 +13,7 @@ export function Card({price, title, image} : CardProps) {
        <div className="card">
             <img src={image}/>
             <h2>{title}</h2>
-            <p><b>Valor: {price} </b></p>
+            <p><b>Valor:</b>{price}</p>
        </div>
 
     )
