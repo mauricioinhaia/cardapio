@@ -1,4 +1,5 @@
 .container {
+    background-color:darkgrey;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -13,8 +14,8 @@
 }
   
 .container button {
-    background-color: #0275d8;
-    color: white;
+    background-color: #01974c;
+    color: rgb(65, 65, 65);
     font-weight: bold;
     position: fixed;
     bottom: 16px;
@@ -25,4 +26,8 @@
 .container button:hover {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 7px 0px;
     transform: scale(1.1);
+}
+
+.background {
+    background-color: grey;
 }
